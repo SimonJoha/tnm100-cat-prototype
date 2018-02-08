@@ -2,4 +2,8 @@
 Cat flap app prototype made with Vue and Vue Material
 
 ## Usage
-To run development server type `npm run serve` into node command prompt.
+To run development server:
+```
+$ npm install
+$ npm run serve
+```
