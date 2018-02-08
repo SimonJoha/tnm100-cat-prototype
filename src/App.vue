@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <div class="md-layout">
+    <div class="app-container md-layout">
       <Tabs id="tabs" />
-      <!-- <router-view/> -->
+      <router-view/>
     </div>
   </div>
 </template>
 
 <script>
-import Tabs from './components/Tabs';
+import Tabs from './Tabs';
 
 export default {
   name: 'App',
@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style>
+* {
+  cursor: touch;
+}
+
 #tabs {
   position: fixed;
   bottom: 0;
